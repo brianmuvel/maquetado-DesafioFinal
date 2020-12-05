@@ -1,0 +1,76 @@
+.right-boxes {
+<<<<<<< HEAD
+    background-color: $asideRight-bg-color;
+=======
+    background-color: #f9fafa;
+    cursor: pointer;
+>>>>>>> develop
+    .card-header {
+        background-color: #f9fafa;
+        border: 1px solid #eef0f1;
+        &:hover{
+            background-color:#f9fafa ;
+        }
+    }
+    
+    .card-footer{
+        background-color: #f9fafa;
+        &:hover{
+            background-color: #f9fafa
+        }
+    }
+
+    .text-small{
+        font-size: smaller;
+    }
+
+    a {
+        color: $highlight-color;
+    }
+    ul {
+        li {
+            background-color: #f9fafa !important;
+            border: 1px solid #eef0f1;
+             a {
+                text-decoration: none;
+                color: black;
+            }
+
+            button {
+                background-color: #3b49df;
+                color: white;
+            }
+        }
+        li:hover {
+            background-color: #fff;
+            color:$highlight-active;
+        }
+
+        li:hover a {
+            color:$highlight-active;
+        }
+    }
+}
+.card-img{
+    height: 115px;
+    width: 115px;
+}
+
+.discuss-podcast {
+    font-size: 1rem;
+}
+
+.mt-6 {
+    margin-top: 90px;
+}
+@media (max-width: 575.98px) {
+    .mt-6 {
+        margin-top: 125px;
+    }
+    .inside-post h1 {
+        font-size: 1.875rem;
+    }
+    .inside-post .media-body {
+        padding: 0;
+    }
+}

@@ -1,0 +1,44 @@
+.avatar {
+    span {
+        display: inline-block;
+        height: 48px;
+        width: 48px;
+        img {
+            position: relative;
+            top: -20px;
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+
+.header-primary {
+    background-color:#4b0f0f;
+    height: 40px;
+}
+
+.avatar-description {
+    a {
+        color: $highlight-color!important;
+    }
+} 
+.title-avatar{
+    span{
+        color: $inactive-gray-light;
+        font-size: 14px;
+        font-weight: bolder;
+    }
+    
+}
+
+.user-description{
+    font-size: 0.75rem;
+} 
+.card-profile{
+    background-color: $asideRight-bg-color;
+}
+
+.post-aside-right{
+    position: sticky;
+    top:62px;
+} 
